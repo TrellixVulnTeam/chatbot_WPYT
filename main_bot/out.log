@@ -1,0 +1,13 @@
+/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+
+/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+
+Action 'utter_default' set a slot type 'date' that it never set during the training. This can throw of the prediction. Make sure toinclude training examples in your stories for the different types of slots thisaction can return. Remember: you need to set the slots manually in the stories by adding '- slot{"date": "None"}' after the action.
+Action 'utter_default' set a slot type 'ip' that it never set during the training. This can throw of the prediction. Make sure toinclude training examples in your stories for the different types of slots thisaction can return. Remember: you need to set the slots manually in the stories by adding '- slot{"ip": "None"}' after the action.
+Action 'utter_default' set a slot type 'item' that it never set during the training. This can throw of the prediction. Make sure toinclude training examples in your stories for the different types of slots thisaction can return. Remember: you need to set the slots manually in the stories by adding '- slot{"item": "None"}' after the action.
+Action 'utter_default' set a slot type 'mide' that it never set during the training. This can throw of the prediction. Make sure toinclude training examples in your stories for the different types of slots thisaction can return. Remember: you need to set the slots manually in the stories by adding '- slot{"mide": "None"}' after the action.
+/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+

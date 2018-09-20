@@ -1,0 +1,43 @@
+action_factory: remote
+action_names:
+- utter_ask_item
+- utter_ask_date
+- utter_ask_ip
+- utter_ask_mide
+- utter_log_search
+- utter_welcome
+- utter_default
+actions:
+- utter_ask_item
+- utter_ask_date
+- utter_ask_ip
+- utter_ask_mide
+- utter_log_search
+- utter_welcome
+- utter_default
+config:
+  store_entities_as_slots: true
+entities:
+- item
+- date
+- ip
+- mide
+intents:
+- inform
+- thanks
+- unknown
+slots:
+  date:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  ip:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  item:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  mide:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates: {}
+topics: []

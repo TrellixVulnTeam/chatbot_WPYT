@@ -1,0 +1,45 @@
+intents:
+  - inform
+  - thanks
+  - unknown
+
+slots:
+  item:
+    type: text
+  date:
+    type: text
+  ip:
+    type: text
+  mide:
+    type: text
+
+entities:
+  - item
+  - date
+  - ip
+  - mide
+
+templates:
+  utter_ask_item:
+    - "问项目"
+  utter_ask_date:
+    - "问时间"
+  utter_ask_ip:
+    - "问IP"
+  utter_ask_mide:
+    - "问中间件"
+  utter_log_search:
+    - "搜索"
+  utter_welcome:
+    - "欢迎你"
+  utter_default:
+    - "默认"
+
+actions:
+  - utter_ask_item
+  - utter_ask_date
+  - utter_ask_ip
+  - utter_ask_mide
+  - utter_log_search
+  - utter_welcome
+  - utter_default
